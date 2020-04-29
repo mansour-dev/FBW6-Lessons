@@ -1,0 +1,19 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live": "live-server",
+    "sass": "node-sass -w scss/ -o  css/",
+    "start": " concurrently   \"npm run live \"  \"npm run sass\"      "
+  },
+  "keywords": [],
+  "author": "Mansoue Tumeh",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.0"
+  }
+}
