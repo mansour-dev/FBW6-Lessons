@@ -14,26 +14,15 @@ for (let i = 0 ; i < 10; i++) {
   console.log('Numbrer '+ i);
 }
 ```
-```
- 
 
-
-
-| ------------- |:-------------:| -----:|
-| start      | i = 0 | Executes once upon entering the loop. |
-| condition  | i < 10      | Checked before every loop iteration. If false, the loop stops. |
-| body | console.log('Numbrer '+ i);      |    Runs again and again while the condition is truthy. |
-| step | i++      |    Executes after the body on each iteration. |
-
-
+||||
+|--|--|--|
+|start|`i = 0`|Executes once upon entering the loop.|
+|condition|`i < 10`|Checked before every loop iteration. If false, the loop stops.|
+|body|`console.log('Numbrer '+ i);`|Runs again and again while the condition is truthy.|
+|step|`i++`|Executes after the body on each iteration.
 
  
-
-
-```
-|start|i = 0|Executes once upon entering the loop.|
-|condition|i < 10|Checked before every loop iteration. If false, the loop stops.|
-|body|console.log('Numbrer '+ i);|Runs again and again while the condition is truthy.|
 
 
 or 
