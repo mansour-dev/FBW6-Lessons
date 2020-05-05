@@ -15,7 +15,7 @@ for (let i = 0 ; i < 10; i++) {
 }
 ```
 
-||||
+|part|||
 |--|--|--|
 |start|`i = 0`|Executes once upon entering the loop.|
 |condition|`i < 10`|Checked before every loop iteration. If false, the loop stops.|
