@@ -1,0 +1,15 @@
+{
+  "name": "for-loop",
+  "version": "1.0.0",
+  "description": "The  `for`  loop is the most commonly used loop.",
+  "main": "app.js",
+  "scripts": {
+    "serve": "live-server"
+  },
+  "keywords": [],
+  "author": "Mansoue Tumeh",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
