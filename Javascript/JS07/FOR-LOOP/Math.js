@@ -64,6 +64,7 @@ function getRandom(){
 // create function to return random color from this array 
 
 const colors = ['red','gray','black','yellow','green','pink','magenta','orange'];
+const myColors =['#ffcc00','#cc00ff','#ee22ff','#ccddff'];
 
 function randomColor(arr){
     const length = arr.length; // getting the length of the array
@@ -74,6 +75,38 @@ function randomColor(arr){
 
 }
 // console.log('my random color is : ' , randomColor(colors))
-document.body.style.background=randomColor(colors);
+document.body.style.background=randomColor(myColors);
+
+
+
+
+
+for(let i =0 ; i < 50 ; i++){
+    debugger;
+    console.log(i);
+    
+}
+
+
+
+
+
+
+
+
+// // generate random colors 
+// let possibleDigits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'];
+// let result = ""
+// //random 
+// indexes =>
+// 0  => 0
+// 3 => 3
+// 5 => 5
+// 12 => c 
+// 13  => D
+// 14 => E 
+// // for loop 
+
+// return result  // #035cde
 
 
