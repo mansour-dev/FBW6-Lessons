@@ -12,7 +12,7 @@ he `…` spread operator is useful for many different routine tasks in JavaScrip
 -   Combining objects
 -   Converting NodeList to an array.
  
-In each case, the spread syntax expands an iterable object, usually an array, though it can be used on any interable, including a string.
+In each case, the spread syntax expands an iterable object, usually an array, though it can be used on any iterable, including a string.
  examples :
 ```javascript
 //example1
