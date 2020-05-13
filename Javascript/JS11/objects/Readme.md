@@ -26,7 +26,7 @@ id : 12
 let library = [ 
    {
        author: ' J. K. Rowling ',
-       title: 'Harry Potter and the Sorcerer's Stone Book 1,
+       title: 'Harry Potter and the Sorcerers Stone Book 1',
        readStatus: true
    },
    {
