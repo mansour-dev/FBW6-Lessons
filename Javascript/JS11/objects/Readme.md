@@ -26,7 +26,7 @@ id : 12
 let library = [ 
    {
        author: ' J. K. Rowling ',
-       title: 'Harry Potter and the Sorcerer's Stone Book 1,
+       title: 'Harry Potter and the Sorcerers Stone Book 1',
        readStatus: true
    },
    {
@@ -41,4 +41,8 @@ let library = [
    }];
 
 ```
+**4.** Write a JavaScript function that takes the library array and other argument as a book title then removes the book from that library array:
 
+```javascript
+removeFromLibrary(library, 'Frankenstein'); // should remove the second object from the library array
+```
