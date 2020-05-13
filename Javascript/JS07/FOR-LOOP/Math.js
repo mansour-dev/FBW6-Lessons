@@ -63,21 +63,6 @@ function getRandom(){
 
 // create function to return random color from this array 
 
-const colors = ['red','gray','black','yellow','green','pink','magenta','orange'];
-const myColors =['#ffcc00','#cc00ff','#ee22ff','#ccddff'];
-
-function randomColor(arr){
-    const length = arr.length; // getting the length of the array
-
-    let i =   Math.floor( Math.random() * length ) // generating the random number between 0 and the length of the array
-
-    return arr[i]; // getting the element form the array using the random index
-
-}
-// console.log('my random color is : ' , randomColor(colors))
-document.body.style.background=randomColor(myColors);
-
-
 
 
 
