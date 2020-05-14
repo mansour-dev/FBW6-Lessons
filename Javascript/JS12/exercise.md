@@ -31,7 +31,7 @@
   ]`
 ```
  2- use the first function to convert the following string to object
-and create an array from all the reci
+and create an array from all the recipes title.
 ```javascript
 
 const data =`
