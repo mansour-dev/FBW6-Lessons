@@ -3,7 +3,7 @@
  1. create a function to  convert from json to object
  this function should take one argument and return the object.
  ```javascript
- const data = `[
+ const data = `{[
   {
     "userId": 1,
     "id": 1,
@@ -28,6 +28,6 @@
     "title": "et porro tempora",
     "completed": true
   }
-  ]`
+  ]}`
 ```
  
