@@ -21,7 +21,7 @@ role : "frontend developer",
 id : 12 
 };  
 ```
-**3.** Write a JavaScript function to display the reading status (i.e. display book name, author name and reading status) of the following books.
+**3.** Write a JavaScript function to display the reading status (readStatus property include book title and author) of the following books.
 ```javascript 
 let library = [ 
    {
