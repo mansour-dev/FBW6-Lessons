@@ -28,6 +28,6 @@
     "title": "et porro tempora",
     "completed": true
   }
-  }`
+  ]`
 ```
  
