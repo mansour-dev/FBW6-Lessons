@@ -20,10 +20,49 @@ function combineArray(array1, array2) {
   ```
   2-
   ```javascript
-  const arr = ["cat", "rabbit", "penguin", "test"];
+const arr = ["cat", "rabbit", "penguin", "test"];
+
 function index(arr) {
     const a = arr.length-1;
     console.log(arr[a]);
 }
 index(arr);
+  ```
+
+  3-
+  ```javascript
+let school = ["Hi", "FBW6", "DCI", "Hamburg"];
+
+function getIndex (array, string) {
+
+    let result;
+    array.forEach(function (element, index)  {
+        element === string ? result = index : ''  ; 
+    });
+    return result;
+}
+console.log(getIndex(school,"FBW6"));
+
+  ```
+  3-
+  ```javascript
+
+const uuu = ["Hi", "FBW6", "DCI", "Hamburg"];
+
+function index(array, expectingString){
+    return array.indexOf(expectingString)
+}
+  ```
+
+  4-
+
+  ```javascript
+const arr = ["fanta", "cola", "water"];
+
+function drinks(arr){
+    const result = arr.filter(erg => erg !== 'fanta' && erg !== 'cola');
+    console.log(result);
+}
+
+drinks(arr);
   ```
