@@ -1,4 +1,4 @@
-const user = {
+const user1 = {
     id: 206,
     email: 'lana@gmail.com',
     personalInfo: {
@@ -8,7 +8,8 @@ const user = {
             line2: '22111',
             city: 'Hamburg'
             
-        }
+        },
+        hobbies : ['sport','javascript']
     }    
 }
 
