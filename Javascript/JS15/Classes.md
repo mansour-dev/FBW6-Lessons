@@ -57,7 +57,7 @@ class Apple {
 }
 
 let  apple = new  Apple('macintosh','reddish');
-console(apple.getInfo());
+console.log(apple.getAppleInfo());
 
 ```
 ### What is a class?
