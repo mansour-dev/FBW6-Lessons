@@ -110,4 +110,4 @@ mansour = {
 }
 */
 ```
-To create complex objects, there’s a more advanced syntax, classes
+To create complex objects, there’s a more advanced syntax, [classes](https://github.com/Mansour-Tumeh/FBW6-Lessons/blob/master/Javascript/JS15/Classes.md)
