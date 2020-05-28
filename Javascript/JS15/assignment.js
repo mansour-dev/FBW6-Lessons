@@ -53,3 +53,15 @@ calculator.add(10, 5) // 15
 calculator.subtract(10, 5) // 5
 calculator.multiply(10, 5) // 50
 calculator.divide(10, 5) // 2
+
+
+
+// create a class Car 
+//property : brand
+// methode  : printInfo about the care 
+
+
+// Create a class named "Model 
+// which will inherit the methods from the "Car" class:
+// property : photo ->  string 
+// methode to print all info about the care 
