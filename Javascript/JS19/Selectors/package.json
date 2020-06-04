@@ -1,0 +1,23 @@
+{
+  "name": "Selectors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server"
+  },
+  "keywords": [],
+  "author": "Mansoue Tumeh",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
+: "live-server"
+  },
+  "keywords": [],
+  "author": "Mansoue Tumeh",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }

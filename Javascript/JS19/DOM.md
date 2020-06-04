@@ -5,7 +5,7 @@
 
  
 
-## DOM (Object Object Model)
+## DOM (Document Object Model)
 
 
 Document Object Model, or DOM for short, represents all page content as objects that can be modified.
