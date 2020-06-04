@@ -41,3 +41,15 @@ console.log(document.URL);
 console.log(document.characterSet);
 console.log(document.contentType);
 ```
+### DOM Selectors For Single Elements
+```javascript
+document.getElementById();
+document.querySelector();
+```
+### DOM Selectors For Multiple Elements
+```javascript
+document.getElementsByClassName();
+document.getElementsByName()
+document.getElementsByTagName();
+document.querySelectorAll();
+```
