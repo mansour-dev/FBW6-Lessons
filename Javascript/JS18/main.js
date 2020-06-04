@@ -33,3 +33,25 @@ function changeColor(id,color){
 // changeColor('paragraph','green');
 // changeColor('firstHead','red');
 
+// Highlight all of the words over 5 characters long in the paragraph text (with a yellow background)
+
+// generate an array from the text 
+// loop through the array and check the length of each element from this array if the length > 5 
+// add a span to each word with length > 5 
+// we can add the background color to all the spans 
+// 
+let source = document.getElementById("paragraph"); // fetch text from html
+let arrSource= source.textContent.split(" ");            // create an array out of the html-text with splitting the text by spaces
+let result = "";
+for (let i = 0; i < arrSource.length; i++) {                // loop through each element of the array
+  if (arrSource[i].length > 5){                             // check if the length of each element is greater than 5
+    arrSource[i] = "<span>" + arrSource[i] + "</span>";     // add a span around each element of the array with more than 5 characters
+  }
+  result += " " + arrSource[i];
+}
+source.innerHTML = result;
+
+let spans = document.querySelectorAll('span');
+spans.forEach(function(item){
+item.style.backgroundColor = 'yellow';
+})
