@@ -23,7 +23,10 @@ A click on the inner  `<p>`  first runs  `onclick`:
 2.  Then on the outer  `<div>`.
 3.  Then on the outer  `<form>`.
 4.  And so on upwards till the  `document`  object.
-![Event Bubling](01.png)So if we click on  `<p>`, then we’ll see 3 alerts:  `p`  →  `div`  →  `form`.
+
+![Event Bubling](01.png)
+
+So if we click on  `<p>`, then we’ll see 3 alerts:  `p`  →  `div`  →  `form`.
 
 The process is called “bubbling”, because events “bubble” from the inner element up through parents like a bubble in the water.
 Event bubbling is supported in all browsers, and it works for all handlers, regardless of how they are registered e.g. using `onclick` or `addEventListener()`
