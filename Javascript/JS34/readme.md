@@ -1,6 +1,7 @@
 ## ES6 Modules in javascript
 
 ![enter image description here](https://res.cloudinary.com/dmim37dbf/image/upload/v1552471685/import_export.png)
+
 we need ES6 modules in order to effectively reuse, maintain, separate and encapsulate internal behaviour from external behaviour. It’s not about making the system complex, but having the ability to easily scale and delete stuff without breaking the system.
 As our application grows bigger, we want to split it into multiple files, so called “modules”. A module may contain a class or a library of functions for a specific purpose.
 **A module is just a file. One script is one module. As simple as that.**
